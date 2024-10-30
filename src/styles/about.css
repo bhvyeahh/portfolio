@@ -1,0 +1,168 @@
+.about-cont{
+    /* border: 1px solid white; */
+
+    width: 60vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+#about-main{
+    font-size: 55px;
+}
+.all-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centered-hr {
+    width: 50vw;            /* Set the width to 50% of the viewport width */
+    margin: auto;    /* Center the line horizontally with auto margins */
+    border: 1px solid rgb(255, 255, 255); /* Set the border style */
+}
+#head{
+    font-weight: 600;
+    font-size: 18px;
+    /* text-shadow: 2px 2px 5px rgb(88, 206, 88); */
+}
+#tail{
+    font-weight: 300;
+    font-size: 14px;
+}
+.about-left{
+    width: 60vw;
+    border: 1px solid rgba(128, 0, 128, 0.527);
+    box-shadow: 0 4px 15px rgba(128, 0, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.left-detail{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.about-left img{
+    width: 250px;
+}
+.about-right{
+    display: flex;
+    height: 75vh;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    /* border: 1px solid green; */
+    gap: 22px;
+}
+.about-right-top{
+    border: 1px solid rgba(128, 0, 128, 0.527);
+    box-shadow: 0 4px 15px rgba(128, 0, 128, 0.5);
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    /* margin-top: 12px; */
+    flex-direction: column;
+    height: 30vh;
+}
+.about-right-top span{
+    margin-left: 12px;
+}
+.icon{
+    color: red;
+}
+.about-right-top #head{
+    border-radius: 30px;
+    color: greenyellow;
+    padding: 12px 0;
+    font-size: 22px;
+}
+.about-right-bot{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 41.6vh;
+    flex-direction: column;
+    border: 1px solid rgba(128, 0, 128, 0.527);
+    box-shadow: 0 4px 15px rgba(128, 0, 128, 0.5);
+    border-radius: 10px;
+}
+.cv{
+    display: flex;
+    margin-top: 12px;
+    gap: 12px;
+}
+.cv button{
+    cursor: pointer;
+    padding: 10px 16px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+}
+.cv button:hover{
+    background-color: rgb(240, 104, 240);
+    color: black;
+    border: none;
+}
+.about-right-bot span, p{
+    margin-left: 12px;
+}
+.about-right-bot #head{
+    border-radius: 30px;
+    margin-top: -60px;
+    background: transparent;
+    color: greenyellow;
+    font-size: 22px;
+}
+.role-detail{
+height: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+}
+.role-detail img{
+    width: 50px;
+    border-radius: 100px;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: -52px;
+    margin-left: 12px;
+}
+#main{
+    margin-top: 16px;
+    color: greenyellow;
+}
+.app1 img{
+    width: 50px;
+}
+.app1{
+    font-size: 13px;
+    max-width: 100px;
+    display: flex;
+    margin-top: 12px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 2px */
+}
+.app1 a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.link img{
+    width: 35px;
+    margin-top: 2px;
+}
