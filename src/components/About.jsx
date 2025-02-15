@@ -9,8 +9,6 @@ import gitimg from '../assets/github-img.png'
 import linkimg from '../assets/linkedin-img.png'
 import twitimg from '../assets/twitter-img.png'
 
-
-
 const About = () => {
   return (
     <div className="all-in">
@@ -22,7 +20,7 @@ const About = () => {
             </FadeIn>
       <div className="about-cont">
          <FadeIn>
-        </FadeIn>   
+        </FadeIn>
         <div className="about-left">
         <FadeIn>
             <img src= {bhavyaimg} alt="" />
@@ -32,12 +30,12 @@ const About = () => {
             <p id='tail'>bhavyarathore575@gmail.com</p>
             <div className="cv">
 
-            <a href="https://drive.google.com/file/d/1AqsACf_6fBLwcI-pKJePzywCbo5FFM47/view?usp=drive_link" target='_blank'>
+            <a href="https://drive.google.com/file/d/1LYficOERa2PvL760p25nXAH1v2X0t6vR/view?usp=drive_link" target='_blank'>
             <FadeIn>
                 <button>VIEW CV</button>
             </FadeIn>
             </a>
-            <a href="https://drive.google.com/uc?export=download&id=1AqsACf_6fBLwcI-pKJePzywCbo5FFM47" target='_blank'>
+            <a href="https://drive.google.com/uc?export=download&id=1LYficOERa2PvL760p25nXAH1v2X0t6vR" target='_blank'>
             <FadeIn>
             <button>DOWNLOAD CV</button>
             </FadeIn>

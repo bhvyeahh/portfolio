@@ -1,0 +1,26 @@
+.about-cont{
+    /* border: 1px solid white; */
+
+    width: 60vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.all-edu-in{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-hr {
+    width: 50vw;            /* Set the width to 50% of the viewport width */
+    margin: auto;    /* Center the line horizontally with auto margins */
+    border: 1px solid white; /* Set the border style */
+}
+#about-main{
+    font-size: 55px;
+}
