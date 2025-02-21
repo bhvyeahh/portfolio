@@ -1,15 +1,17 @@
-.about-cont{
+.edu-cont{
     /* border: 1px solid white; */
 
-    width: 60vw;
-    height: 75vh;
+    width: 90vw;
+    height: 30vh;
     margin: auto;
     margin-top: 20px;
     display: flex;
+    justify-content: center;
     gap: 25px;
 }
 .all-edu-in{
     padding-top: 60px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,4 +25,17 @@
 }
 #about-main{
     font-size: 55px;
+}
+.left-edu-cont{
+    width: 30vw;
+}
+.right-edu-cont{
+    height: 2vh;
+}
+.left-edu-cont img{
+width: 400px;
+/* margin-top: ; */
+}
+.right-edu-cont-1{
+    height: 50px;
 }
